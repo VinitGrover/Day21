@@ -21,7 +21,7 @@ public class MoodAnalyser {
 
         String messageToReturn = "";
 
-        for (String var : split) {
+        for (String var : split) { 
             if (var.equalsIgnoreCase("Sad")) {
                 messageToReturn = var;
                 break;
