@@ -41,4 +41,10 @@ public class TestMoodAnalyser {
         assertEquals(result, "Happy");
     }
 
+    @Test
+    public void givenEmptyMood_whenTested_shouldReturnEmptyMood() {
+        MoodAnalyser mood = new MoodAnalyser();
+        String result = mood.analyseMood();
+        assertEquals(result, "Empty Mood");
+    }
 }
